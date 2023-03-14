@@ -16,7 +16,8 @@ import static org.opendatakit.suitcase.ui.LayoutConsts.WINDOW_WIDTH;
 public class Suitcase {
   private static final String SUITCASE_TITLE = "Suitcase";
   public static void main(String[] args) {
-    int retCode = SuitcaseSwingWorker.okCode;
+    int retCode = SuitcaseSwingWorker.okCode
+      bug
     if (args.length > 0) {
       retCode = new SuitcaseCLI(args).startCLI();
       System.exit(retCode);
